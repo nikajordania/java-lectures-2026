@@ -1,3 +1,34 @@
+## Running the Project in IntelliJ IDEA
+
+### Option 1: Run from the IDE (Recommended for Development)
+
+1. **Open the project in IntelliJ IDEA**
+   - If not already open, go to `File → Open` and select the `java-lecture-2026` folder or clone repository using option `Project from Version Control`
+
+2. **Configure the Project SDK**
+   - Go to `File → Project Structure` (or press `Ctrl+Alt+Shift+S`)
+   - Under `Project Settings → Project`, ensure a JDK is selected
+   - If no JDK is configured, click `Add SDK → Download JDK` or point to an existing JDK installation
+
+3. **Run a Java file**
+   - Open any Java file with a `main` method (`Program.java`, `HelloWorld.java`)
+   - Right-click anywhere in the editor
+   - Select `Run 'ClassName.main()'`
+   - Alternatively, click the green play button (▶️) in the gutter next to the `main` method
+   - Or use the keyboard shortcut `Shift+F10`
+
+4. **View output**
+   - The program output will appear in the `Run` panel at the bottom of the IDE
+
+### Option 2: Run from Terminal within IntelliJ IDEA
+
+1. Open the built-in terminal: `View → Tool Windows → Terminal` (or press `Alt+F12`)
+2. Follow the command-line compilation and execution steps below
+
+---
+
+## Running from Command Line
+
 ### 1. **Compile the Java files**
 
    ```shell
